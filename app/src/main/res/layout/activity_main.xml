@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F3EFE6"
-    android:fillViewport="true"
-    android:fitsSystemWindows="false">
+    android:fillViewport="true">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,7 +14,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="270dp"
+            android:layout_height="260dp"
             android:background="#172C45"
             android:gravity="center"
             android:orientation="vertical"
@@ -26,8 +26,7 @@
                 android:text="S T U D E N T   P O R T A L"
                 android:textColor="#C6A56C"
                 android:textSize="12sp"
-                android:textStyle="bold"
-                android:letterSpacing="0.12" />
+                android:textStyle="bold" />
 
             <View
                 android:layout_width="42dp"
@@ -48,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Your academic journey continues here."
+                android:text="Sign in to access your student portal."
                 android:textColor="#D5DCE4"
                 android:textSize="14sp" />
 
@@ -58,10 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingStart="28dp"
-            android:paddingEnd="28dp"
-            android:paddingTop="34dp"
-            android:paddingBottom="36dp">
+            android:padding="28dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -69,13 +65,13 @@
                 android:text="SIGN IN"
                 android:textColor="#A18350"
                 android:textSize="12sp"
-                android:textStyle="bold"
-                android:letterSpacing="0.15" />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:layout_marginBottom="26dp"
                 android:text="Access your account"
                 android:textColor="#172C45"
                 android:textSize="23sp"
@@ -84,20 +80,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="28dp"
-                android:text="Enter your credentials to continue to your student profile."
-                android:textColor="#827763"
-                android:textSize="14sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="USERNAME"
                 android:textColor="#172C45"
                 android:textSize="12sp"
-                android:textStyle="bold"
-                android:letterSpacing="0.08" />
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/etUsername"
@@ -120,8 +106,7 @@
                 android:text="PASSWORD"
                 android:textColor="#172C45"
                 android:textSize="12sp"
-                android:textStyle="bold"
-                android:letterSpacing="0.08" />
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/etPassword"
@@ -144,24 +129,20 @@
                 android:layout_height="56dp"
                 android:backgroundTint="#172C45"
                 android:text="SIGN IN"
-                android:textAllCaps="true"
                 android:textColor="#E2C58F"
                 android:textSize="14sp"
-                android:textStyle="bold"
-                android:letterSpacing="0.08" />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="30dp"
                 android:gravity="center"
                 android:text="STUDENT PORTAL  •  ACADEMIC SERVICES"
                 android:textColor="#A49A89"
-                android:textSize="10sp"
-                android:letterSpacing="0.08" />
+                android:textSize="10sp" />
 
         </LinearLayout>
 
     </LinearLayout>
-
 </ScrollView>
